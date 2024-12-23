@@ -7,11 +7,11 @@
 .git/
 
 # to exclude any sketch made on obsidian
-.excalidraw/
+excalidraw/
 
 # to exclude OS settings and caches
-.trash/
-.DS_Store
+trash/
+DS_Store
 
 # to exclude any programming environment
 **/*env*/
@@ -29,8 +29,8 @@ Untitled*
 null*
 
 # Add below lines to exclude OS settings and caches
-.trash/
-.DS_Store
+trash/
+DS_Store
 
 # to exclude rag settings
-.rag/
+rag/
