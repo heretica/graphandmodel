@@ -187,12 +187,14 @@
   },
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
-    "graph/CausalInference/Statistics.md",
-    "graph/CausalInference/Randomized Controlled Trial.md",
+    "graph/CausalInference/Root Cause Analysis.md",
+    "graph/CausalInference/Judea Pearl.md",
+    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Causal Inference.md",
+    "graph/CausalInference/Randomized Controlled Trial.md",
+    "graph/CausalInference/Statistics.md",
     "graph/CausalInference/Ronald Fisher.md",
     "graph/CausalInference/Propensity Score Matching.md",
-    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Inverse probability weigthing.md",
     "graph/CausalInference/Fairness in Machine Learning.md",
     "graph/CausalInference/Inverse Probability Weighting.md",
@@ -210,8 +212,6 @@
     "word.md",
     "syllable.md",
     "phraseme.md",
-    "non-compositional meaning.md",
-    "New file.md",
-    "morpheme.md"
+    "non-compositional meaning.md"
   ]
 }
