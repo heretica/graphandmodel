@@ -1,14 +1,15 @@
 ---
-parent: "[[Statistics]]"
+parent: '[[Statistics]]'
 type: concept
 tags:
-  - framework
-  - graph-theory
+- framework
+- graph-theory
 ancestor_of:
-  - "[[Causal Graph]]"
+- '[[Causal Graph]]'
 inferred_by: reasoner
 uses:
-  - "[[Graph]]"
+- '[[Graph]]'
+indirectly_uses: '[[Nodes]]'
 ---
 Graphical models use graph-structured representations to encode probability distributions and conditional independence relationships between variables. They provide a unified framework for probabilistic reasoning and causal inference.
 
