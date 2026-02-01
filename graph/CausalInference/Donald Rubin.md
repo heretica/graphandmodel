@@ -1,21 +1,21 @@
 ---
 tags:
-  - researcher
-  - statistics
+- researcher
+- statistics
 type: person
 wikidata: Q92760
 field:
-  - "[[Statistics]]"
-  - "[[Causal Inference]]"
+- '[[Statistics]]'
+- '[[Causal Inference]]'
 known_for:
-  - "[[Rubin Causal Model]]"
-  - "[[Propensity Score Matching]]"
+- '[[Rubin Causal Model]]'
+- '[[Propensity Score Matching]]'
 contributed_to:
-  - "[[Propensity Score Matching]]"
+- '[[Propensity Score Matching]]'
 inferred_by: reasoner
 theory_applied_by:
-  - "[[Subclassification]]"
-created: "[[Rubin Causal Model]]"
+- '[[Subclassification]]'
+created: '[[Rubin Causal Model]]'
 ---
 Donald Rubin (Wikidata: Q92760) developed the potential outcomes framework for causal inference, now called the Rubin Causal Model. His work established rigorous statistical methods for estimating treatment effects from observational data and designing randomized experiments.
 
