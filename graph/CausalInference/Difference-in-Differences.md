@@ -2,7 +2,9 @@
 parent: "[[Causal Inference]]"
 created_by: "[[David Card]]"
 part_of: "[[Policy Evaluation]]"
-uses: "[[Structural Causal Model]]"
+uses:
+  - "[[Structural Causal Model]]"
+  - "[[Rubin Causal Model]]"
 used_for:
   - "[[Policy Evaluation]]"
 field: "[[Economics]]"
