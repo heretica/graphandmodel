@@ -69,3 +69,83 @@ The `.obsidian/` directory (containing Obsidian editor settings) was being track
 - Related: CLAUDE.md "GitHub Actions Workflow Robustness" section
 
 ---
+
+## GitHub Actions: Git Add Pattern Not Working
+
+**Date:** 2026-02-02
+
+### Problem
+
+After fixing the rebase conflict issue, the workflow failed again with:
+```
+Changes not staged for commit:
+    modified:   graph/TabPFN.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Error: Process completed with exit code 1.
+```
+
+The command `git add graph/**/*.md` was not staging any files.
+
+### Root Cause
+
+The `**` globstar pattern in bash requires the `globstar` shell option to be enabled. Without it:
+- `**/` is treated as a literal `**/` instead of matching directories recursively
+- `git add graph/**/*.md` fails to match files like `graph/TabPFN.md` or `graph/CausalInference/Method.md`
+- The git add silently fails (no error), but commit fails because nothing was staged
+
+By default, GitHub Actions runners don't have `globstar` enabled.
+
+### Solution
+
+Enable globstar before using the `**` pattern:
+
+```yaml
+- name: Commit and push changes
+  run: |
+    git config --local user.email "action@github.com"
+    git config --local user.name "GitHub Action"
+
+    # Enable globstar for recursive pattern matching
+    shopt -s globstar
+
+    # Stage all markdown files in graph directory and subdirectories
+    git add graph/**/*.md
+
+    git commit -m "message"
+    # ... rest of workflow
+```
+
+### Alternative Solutions
+
+If you don't want to rely on globstar:
+
+1. **Use simple directory add:**
+   ```bash
+   git add graph/
+   ```
+   (This adds all files in graph/ and subdirectories, .gitignore handles exclusions)
+
+2. **Use find command:**
+   ```bash
+   find graph -name "*.md" -type f | xargs git add
+   ```
+
+3. **Use git's pathspec:**
+   ```bash
+   git add graph/*.md graph/*/*.md graph/*/*/*.md
+   ```
+
+### Key Insights
+
+- **Bash globstar is not default:** The `**` pattern requires `shopt -s globstar` in bash
+- **Silent failures:** `git add` with an invalid pattern doesn't error, it just adds nothing
+- **Test patterns locally:** Always test shell patterns with `echo pattern` before using in git commands
+- **Prefer explicit patterns:** In CI/CD, simpler patterns (`graph/`) are often more reliable than advanced globs
+
+### References
+
+- Commit: `c7cd0fb` - Fix git add pattern in workflow - enable globstar
+- File: `.github/workflows/reasoning-workflow.yml`
+
+---
