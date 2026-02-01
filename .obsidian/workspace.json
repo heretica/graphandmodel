@@ -15,7 +15,7 @@
               "state": {
                 "file": "graph/CausalInference/Inverse Probability Weighting.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Inverse Probability Weighting"
