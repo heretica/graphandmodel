@@ -34,3 +34,28 @@ DS_Store
 
 # to exclude rag settings
 rag/
+
+# Python build artifacts
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Deprecated files (kept for reference, not tracked)
+# analyze_scm_reasoning.py
+# persist_discoveries.py
+# obsidian_graph_reasoner.py

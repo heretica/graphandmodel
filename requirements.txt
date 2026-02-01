@@ -1,7 +1,6 @@
 # Core dependencies for Obsidian Graph Reasoner
-semantica
-pyyaml
+pyyaml>=5.4.0
 
 # Wikidata integration
-SPARQLWrapper
-requests
+SPARQLWrapper>=1.8.5
+requests>=2.25.0

@@ -6,8 +6,8 @@ parent: '[[Philosophy of Science]]'
 wikidata: Q1137724
 ancestor_of:
 - '[[Instrumental Variables]]'
-- '[[Policy Evaluation]]'
 - '[[Mediation Analysis]]'
+- '[[Policy Evaluation]]'
 - '[[Propensity Score Matching]]'
 - '[[Root Cause Analysis]]'
 inferred_by: reasoner

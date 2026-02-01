@@ -12,9 +12,9 @@ known_for:
 - '[[Structural Causal Model]]'
 - '[[do-calculus]]'
 theory_applied_by:
-- '[[Policy Evaluation]]'
-- '[[Mediation Analysis]]'
 - '[[Fairness in Machine Learning]]'
+- '[[Mediation Analysis]]'
+- '[[Policy Evaluation]]'
 - '[[Root Cause Analysis]]'
 inferred_by: reasoner
 ---
