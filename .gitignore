@@ -2,7 +2,7 @@
 .obsidian/
 .obsidian/workspace.json
 .obsidian/plugins/obsidian-git/data.json
-
+obsidian/
 # to exclude git settings 
 .git/
 
@@ -11,7 +11,7 @@ excalidraw/
 
 # to exclude OS settings and caches
 trash/
-DS_Store
+.DS_Store
 
 # to exclude any programming environment
 **/*env*/
@@ -59,3 +59,5 @@ htmlcov/
 # analyze_scm_reasoning.py
 # persist_discoveries.py
 # obsidian_graph_reasoner.py
+
+# NEW
