@@ -20,6 +20,7 @@ theory_applied_by:
 - '[[Randomized Controlled Trial]]'
 - '[[Regression Discontinuity]]'
 - '[[Root Cause Analysis]]'
+- '[[TabPFN]]'
 inferred_by: reasoner
 ---
 Judea Pearl (Wikidata: Q92743) is a computer scientist and philosopher who revolutionized causal inference by introducing graphical models and formal calculi for causal reasoning. He received the Turing Award in 2011 "for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning."
