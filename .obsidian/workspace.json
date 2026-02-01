@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Directed Acyclic Graph.md",
+                "file": "graph/CausalInference/Inverse Probability Weighting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Directed Acyclic Graph"
+              "title": "Inverse Probability Weighting"
             }
           }
         ]
@@ -187,13 +187,14 @@
   },
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
-    "graph/CausalInference/Inverse Probability Weighting.md",
-    "graph/CausalInference/Causal Graph.md",
-    "graph/CausalInference/Causality.md",
-    "graph/CausalInference/Collider.md",
-    "graph/CausalInference/Directed Acyclic Graph.md",
-    "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Fairness in Machine Learning.md",
+    "graph/CausalInference/Directed Acyclic Graph.md",
+    "graph/CausalInference/Counterfactual.md",
+    "graph/CausalInference/Causality.md",
+    "graph/CausalInference/Causal Graph.md",
+    "graph/CausalInference/Collider.md",
+    "graph/CausalInference/Inverse Probability Weighting.md",
+    "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Backdoor Criterion.md",
     "graph/Clustering.md",
     "graph/Classification.md",
@@ -211,7 +212,6 @@
     "Open Models.md",
     "Open Data.md",
     "Open Software.md",
-    "Open Science.md",
-    "Open Hardware.md"
+    "Open Science.md"
   ]
 }

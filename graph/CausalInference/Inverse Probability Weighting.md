@@ -2,10 +2,8 @@
 parent: "[[Causal Inference]]"
 created_by: "[[Donald Rubin]]"
 part_of: "[[Propensity Score Matching]]"
-uses:
-  - - Structural Causal Model
-used_for:
-  - - Policy Evaluation
+uses: "[[Structural Causal Model]]"
+used_for: "[[Policy Evaluation]]"
 ---
 
 # Inverse Probability Weighting
