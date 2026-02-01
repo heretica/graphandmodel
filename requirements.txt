@@ -1,3 +1,7 @@
 # Core dependencies for Obsidian Graph Reasoner
 semantica
 pyyaml
+
+# Wikidata integration
+SPARQLWrapper
+requests
