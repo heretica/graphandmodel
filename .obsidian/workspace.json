@@ -234,6 +234,8 @@
   },
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
+    "graph/CausalInference/Rubin Causal Model.md",
+    "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Subclassification.md",
     "graph/CausalInference/Root Cause Analysis.md",
     "graph/CausalInference/Causality.md",
@@ -257,8 +259,6 @@
     "graph/CausalInference/Inverse Probability Weighting.md",
     "graph/CausalInference/Counterfactual.md",
     "graph/CausalInference/Collider.md",
-    "graph/CausalInference/Donald Rubin.md",
-    "graph/CausalInference/Backdoor Criterion.md",
-    "graph/Clustering.md"
+    "graph/CausalInference/Backdoor Criterion.md"
   ]
 }
