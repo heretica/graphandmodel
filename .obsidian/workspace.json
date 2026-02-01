@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Directed Acyclic Graph.md",
+                "file": "graph/CausalInference/Root Cause Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Directed Acyclic Graph"
+              "title": "Root Cause Analysis"
             },
             "group": "c44db8218ee8ec6b"
           }
@@ -36,7 +36,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "graph/CausalInference/Directed Acyclic Graph.md",
+                "file": "graph/CausalInference/Root Cause Analysis.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Directed Acyclic Graph"
+              "title": "Graph of Root Cause Analysis"
             },
             "group": "c44db8218ee8ec6b"
           }
@@ -232,15 +232,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "994d091024255e31",
+  "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
-    "graph/CausalInference/Causal Graph.md",
+    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Directed Acyclic Graph.md",
+    "graph/CausalInference/Causal Graph.md",
     "graph/CausalInference/Graphical models.md",
     "graph/CausalInference/Graph.md",
     "graph/Artificial Intelligence.md",
     "graph/CausalInference/Judea Pearl.md",
-    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Regression Discontinuity.md",
     "graph/CausalInference/David Card.md",
     "graph/CausalInference/Difference-in-Differences.md",
