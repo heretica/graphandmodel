@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Graphical models.md",
+                "file": "graph/CausalInference/Directed Acyclic Graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graphical models"
+              "title": "Directed Acyclic Graph"
             },
             "group": "c44db8218ee8ec6b"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "graph/CausalInference/Graphical models.md",
+                "file": "graph/CausalInference/Directed Acyclic Graph.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Graphical models"
+              "title": "Graph of Directed Acyclic Graph"
             },
             "group": "c44db8218ee8ec6b"
           }
@@ -123,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "02085196d74528b2",
@@ -231,11 +230,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "994d091024255e31",
+  "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
+    "graph/CausalInference/Graph.md",
+    "graph/CausalInference/Directed Acyclic Graph.md",
+    "graph/CausalInference/Graphical models.md",
     "graph/Artificial Intelligence.md",
-    "graph/CausalInference/Graphical models.md",
-    "graph/CausalInference/Graphical models.md",
     "graph/CausalInference/Judea Pearl.md",
     "graph/CausalInference/Causality.md",
     "graph/CausalInference/Regression Discontinuity.md",
@@ -251,7 +251,6 @@
     "graph/CausalInference/Inverse probability weigthing.md",
     "graph/CausalInference/Fairness in Machine Learning.md",
     "graph/CausalInference/Inverse Probability Weighting.md",
-    "graph/CausalInference/Directed Acyclic Graph.md",
     "graph/CausalInference/Counterfactual.md",
     "graph/CausalInference/Causal Graph.md",
     "graph/CausalInference/Collider.md",
