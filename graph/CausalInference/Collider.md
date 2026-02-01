@@ -1,8 +1,8 @@
 ---
-parent: '[[Causal Graph]]'
+parent: "[[Causal Graph]]"
 tags:
-- bias
-- selection
+  - bias
+  - selection
 type: pattern
 wikidata: Q5147089
 ---
