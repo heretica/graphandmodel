@@ -4,8 +4,14 @@ tags:
 type: concept
 parent: '[[Philosophy of Science]]'
 wikidata: Q1137724
+ancestor_of:
+- '[[Instrumental Variables]]'
+- '[[Policy Evaluation]]'
+- '[[Mediation Analysis]]'
+- '[[Propensity Score Matching]]'
+- '[[Root Cause Analysis]]'
+inferred_by: reasoner
 ---
-
 Causality (Wikidata: Q1137724) describes the relationship between causes and effects. In David Hume's classical formulation, causation involves constant conjunction, temporal priority, and necessary connection between events.
 
 Modern causal inference distinguishes correlation from causation through the principle that "correlation does not imply causation." Two variables may be correlated because one causes the other, because they share a common cause (confounding), or simply by chance.

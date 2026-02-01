@@ -11,8 +11,13 @@ field:
 known_for:
 - '[[Structural Causal Model]]'
 - '[[do-calculus]]'
+theory_applied_by:
+- '[[Policy Evaluation]]'
+- '[[Mediation Analysis]]'
+- '[[Fairness in Machine Learning]]'
+- '[[Root Cause Analysis]]'
+inferred_by: reasoner
 ---
-
 Judea Pearl (Wikidata: Q92743) is a computer scientist and philosopher who revolutionized causal inference by introducing graphical models and formal calculi for causal reasoning. He received the Turing Award in 2011 "for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning."
 
 > "Data are profoundly dumb about causal relationships. No matter how big the data, they cannot tell us whether smoking causes cancer or whether exercise leads to weight loss." — Judea Pearl
