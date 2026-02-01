@@ -234,6 +234,9 @@
   },
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
+    "graph/CausalInference/Nodes.md",
+    "graph/CausalInference/Graph.md",
+    "graph/CausalInference/Graphical models.md",
     "graph/CausalInference/Difference-in-Differences.md",
     "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Rubin Causal Model.md",
@@ -242,8 +245,6 @@
     "graph/CausalInference/Causality.md",
     "graph/CausalInference/Directed Acyclic Graph.md",
     "graph/CausalInference/Causal Graph.md",
-    "graph/CausalInference/Graphical models.md",
-    "graph/CausalInference/Graph.md",
     "graph/Artificial Intelligence.md",
     "graph/CausalInference/Judea Pearl.md",
     "graph/CausalInference/Regression Discontinuity.md",
@@ -258,7 +259,6 @@
     "graph/CausalInference/Fairness in Machine Learning.md",
     "graph/CausalInference/Inverse Probability Weighting.md",
     "graph/CausalInference/Counterfactual.md",
-    "graph/CausalInference/Collider.md",
-    "graph/CausalInference/Backdoor Criterion.md"
+    "graph/CausalInference/Collider.md"
   ]
 }
