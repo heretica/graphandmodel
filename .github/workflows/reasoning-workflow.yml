@@ -59,10 +59,18 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+
+          # Stage only graph markdown files
           git add graph/**/*.md
+
+          # Commit the changes
           git commit -m "Automated: Add reasoner-discovered facts to knowledge graph
 
           Co-Authored-By: Obsidian Reasoner Bot <noreply@github.com>"
+
+          # Stash any remaining unstaged changes (e.g., .obsidian files)
+          # to avoid blocking the pull operation
+          git stash --include-untracked --keep-index || echo "Nothing to stash"
 
           # Pull with rebase to handle any remote changes
           git pull --rebase origin main || {
@@ -72,6 +80,9 @@ jobs:
           }
 
           git push
+
+          # Pop stashed changes back (they'll remain local, not pushed)
+          git stash pop || echo "No stash to pop"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
