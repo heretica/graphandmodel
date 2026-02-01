@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Causality.md",
+                "file": "graph/CausalInference/Randomized Controlled Trial.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Causality"
+              "title": "Randomized Controlled Trial"
             }
           }
         ]
@@ -187,12 +187,13 @@
   },
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
+    "graph/CausalInference/Causality.md",
+    "graph/CausalInference/Randomized Controlled Trial.md",
     "graph/CausalInference/Inverse probability weigthing.md",
     "graph/CausalInference/Fairness in Machine Learning.md",
     "graph/CausalInference/Inverse Probability Weighting.md",
     "graph/CausalInference/Directed Acyclic Graph.md",
     "graph/CausalInference/Counterfactual.md",
-    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Causal Graph.md",
     "graph/CausalInference/Collider.md",
     "graph/CausalInference/Donald Rubin.md",
@@ -211,7 +212,6 @@
     "lexeme.md",
     "Les accents éàë$.md",
     "Open Models.md",
-    "Open Data.md",
-    "Open Software.md"
+    "Open Data.md"
   ]
 }
