@@ -13,6 +13,7 @@ known_for:
 - '[[do-calculus]]'
 theory_applied_by:
 - '[[Fairness in Machine Learning]]'
+- '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'
 - '[[Policy Evaluation]]'
 - '[[Root Cause Analysis]]'

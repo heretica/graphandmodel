@@ -7,8 +7,9 @@ wikidata: Q1195958
 related:
 - '[[Statistics]]'
 - '[[Machine Learning]]'
+domain_encompasses: '[[Propensity Score Matching]]'
+inferred_by: reasoner
 ---
-
 Causal inference (Wikidata: Q1195958) is the process of determining cause-and-effect relationships from data. Unlike predictive modeling, which focuses on association, causal inference aims to answer questions about what would happen under interventions or counterfactual scenarios.
 
 The fundamental problem of causal inference, identified by Paul Holland and Donald Rubin, is that we can never observe both potential outcomes for the same unit: we see either the treated or control outcome, but not both. This missing data problem distinguishes causal inference from standard statistical estimation.

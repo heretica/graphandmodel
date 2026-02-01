@@ -6,6 +6,7 @@ parent: '[[Philosophy of Science]]'
 wikidata: Q1137724
 ancestor_of:
 - '[[Instrumental Variables]]'
+- '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'
 - '[[Policy Evaluation]]'
 - '[[Propensity Score Matching]]'

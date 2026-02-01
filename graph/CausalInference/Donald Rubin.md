@@ -10,8 +10,9 @@ field:
 known_for:
 - '[[Rubin Causal Model]]'
 - '[[Propensity Score Matching]]'
+contributed_to: '[[Propensity Score Matching]]'
+inferred_by: reasoner
 ---
-
 Donald Rubin (Wikidata: Q92760) developed the potential outcomes framework for causal inference, now called the Rubin Causal Model. His work established rigorous statistical methods for estimating treatment effects from observational data and designing randomized experiments.
 
 The potential outcomes framework represents causality through hypothetical outcomes under different treatments. Each unit has potential outcomes Y(1) under treatment and Y(0) under control. The individual causal effect is Y(1) - Y(0), but we observe only one outcome—the fundamental problem of causal inference identified by Holland and Rubin in 1986.
