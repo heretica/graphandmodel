@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Causality.md",
+                "file": "graph/Artificial Intelligence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Causality"
+              "title": "Artificial Intelligence"
             }
           }
         ]
@@ -185,8 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e73feb7d30285b0a",
+  "active": "f846e0779d2eae35",
   "lastOpenFiles": [
+    "graph/CausalInference/Judea Pearl.md",
+    "graph/Artificial Intelligence.md",
+    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Regression Discontinuity.md",
     "graph/CausalInference/David Card.md",
     "graph/CausalInference/Difference-in-Differences.md",
@@ -195,8 +198,6 @@
     "graph/CausalInference/Causal Inference.md",
     "graph/CausalInference/Ronald Fisher.md",
     "graph/CausalInference/Root Cause Analysis.md",
-    "graph/CausalInference/Judea Pearl.md",
-    "graph/CausalInference/Causality.md",
     "graph/CausalInference/Statistics.md",
     "graph/CausalInference/Propensity Score Matching.md",
     "graph/CausalInference/Inverse probability weigthing.md",
@@ -211,7 +212,6 @@
     "graph/Clustering.md",
     "graph/Classification.md",
     "rag/readme.md.md",
-    "Open AI.md",
-    "README.md"
+    "Open AI.md"
   ]
 }
