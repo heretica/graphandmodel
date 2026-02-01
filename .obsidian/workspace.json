@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Directed Acyclic Graph.md",
+                "file": "graph/CausalInference/Graphical models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Directed Acyclic Graph"
+              "title": "Graphical models"
             },
             "group": "c44db8218ee8ec6b"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "graph/CausalInference/Directed Acyclic Graph.md",
+                "file": "graph/CausalInference/Graphical models.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Directed Acyclic Graph"
+              "title": "Graph of Graphical models"
             },
             "group": "c44db8218ee8ec6b"
           }
@@ -232,8 +232,8 @@
   },
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
-    "graph/CausalInference/Graph.md",
     "graph/CausalInference/Directed Acyclic Graph.md",
+    "graph/CausalInference/Graph.md",
     "graph/CausalInference/Graphical models.md",
     "graph/Artificial Intelligence.md",
     "graph/CausalInference/Judea Pearl.md",
