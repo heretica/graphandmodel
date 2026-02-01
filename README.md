@@ -24,12 +24,12 @@ src/
 
 - **Automatic Fact Extraction**: Parses YAML frontmatter from Obsidian markdown files
 - **Logical Reasoning**: Applies 6 inference rules to discover new relationships:
-  1. Transitive parent relationships (ANCESTOR_OF)
-  2. Transitive part-of relationships
-  3. Contribution tracking (created X → part of Y → contributed to Y)
-  4. Indirect usage chains
-  5. Domain encompassing
-  6. Theory application tracking
+  1. **Transitive Parent** (ANCESTOR_OF): If A parent of B, and B parent of C → A ancestor of C
+  2. **Transitive Part-Of** (TRANSITIVELY_PART_OF): If A part of B, and B part of C → A transitively part of C
+  3. **Contribution** (CONTRIBUTED_TO): If Creator created X, and X part of Y → Creator contributed to Y
+  4. **Indirect Usage** (INDIRECTLY_USES): If A uses X, and X uses Y → A indirectly uses Y
+  5. **Domain Encompasses** (DOMAIN_ENCOMPASSES): If A parent of X, and X part of Y → A's domain encompasses Y
+  6. **Theory Application** (THEORY_APPLIED_BY): If Creator created Theory, and Method uses Theory → Creator's theory applied by Method
 
 - **Automated Discovery Persistence**: Writes inferred facts back to your Obsidian vault
 - **CI/CD Integration**: GitHub Actions automatically runs reasoning when you add new notes
@@ -72,24 +72,54 @@ This will:
 
 ### Example
 
-Given these facts in your Obsidian vault:
+**Input** - Your Obsidian vault contains:
 
+`Difference-in-Differences.md`:
 ```yaml
 ---
-parent: [[Causal Inference]]
+parent: '[[Causal Inference]]'
+created_by: '[[David Card]]'
+part_of: '[[Policy Evaluation]]'
+uses: '[[Structural Causal Model]]'
 ---
-# Propensity Score Matching
 ```
 
+`Causal Inference.md`:
 ```yaml
 ---
-created_by: [[Donald Rubin]]
+parent: '[[Causality]]'
 ---
-# Propensity Score Matching
 ```
 
-The reasoner will infer:
-- `Donald Rubin CONTRIBUTED_TO Causal Inference`
+`Structural Causal Model.md`:
+```yaml
+---
+created_by: '[[Judea Pearl]]'
+---
+```
+
+**Output** - The reasoner infers and adds to files:
+
+To `Causality.md`:
+```yaml
+ancestor_of:
+  - '[[Difference-in-Differences]]'
+inferred_by: reasoner
+```
+
+To `David Card.md`:
+```yaml
+contributed_to:
+  - '[[Policy Evaluation]]'
+inferred_by: reasoner
+```
+
+To `Judea Pearl.md`:
+```yaml
+theory_applied_by:
+  - '[[Difference-in-Differences]]'
+inferred_by: reasoner
+```
 
 ## 🔄 Automated Workflow
 
@@ -114,14 +144,20 @@ This means your Obsidian vault on GitHub stays synchronized with inferred knowle
 - `field`: Creates WORKS_IN relationship
 - `used_for`: Creates USED_FOR relationship
 
-### Inferred Relations
+### Inferred Relations (Written to YAML frontmatter)
 
-- `ANCESTOR_OF`: Transitive parent relationships
-- `TRANSITIVELY_PART_OF`: Transitive part-of chains
-- `CONTRIBUTED_TO`: Creator contributed to larger system
-- `INDIRECTLY_USES`: Transitive usage chains
-- `DOMAIN_ENCOMPASSES`: Domain coverage through hierarchy
-- `THEORY_APPLIED_BY`: Theory application tracking
+The reasoner infers these relationships and writes them back to markdown files:
+
+| Relation | YAML Key | Description | Example |
+|----------|----------|-------------|---------|
+| `ANCESTOR_OF` | `ancestor_of` | Grandparent in hierarchy | Causality → Difference-in-Differences |
+| `TRANSITIVELY_PART_OF` | `transitively_part_of` | Transitive composition | Component → System → Platform |
+| `CONTRIBUTED_TO` | `contributed_to` | Creator's contribution to field | David Card → Policy Evaluation |
+| `INDIRECTLY_USES` | `indirectly_uses` | Transitive dependency | App → Framework → Language |
+| `DOMAIN_ENCOMPASSES` | `domain_encompasses` | Field covers application | Causal Inference → Policy Evaluation |
+| `THEORY_APPLIED_BY` | `theory_applied_by` | Theory used by method | Judea Pearl → Difference-in-Differences |
+
+**Note**: Inferred facts are added to the **subject** entity's file with `inferred_by: reasoner` metadata.
 
 ## 🧪 Testing
 
