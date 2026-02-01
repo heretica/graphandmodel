@@ -4,6 +4,7 @@ tags:
 - ai
 - causality
 type: person
+wikidata: Q92743
 field:
 - '[[Artificial Intelligence]]'
 - '[[Causal Inference]]'
@@ -12,24 +13,23 @@ known_for:
 - '[[do-calculus]]'
 ---
 
-Judea Pearl is a computer scientist and philosopher, winner of the Turing Award (2011).
+Judea Pearl (Wikidata: Q92743) is a computer scientist and philosopher who revolutionized causal inference by introducing graphical models and formal calculi for causal reasoning. He received the Turing Award in 2011 "for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning."
 
-## Contributions
+> "Data are profoundly dumb about causal relationships. No matter how big the data, they cannot tell us whether smoking causes cancer or whether exercise leads to weight loss." — Judea Pearl
 
-- Developed [[Structural Causal Model]] framework
-- Created [[do-calculus]] for causal reasoning
-- [[Bayesian Networks]] for probabilistic reasoning
-- Causal hierarchy (ladder of causation)
+Pearl's key insight was recognizing that causality requires a language distinct from probability. While probability describes association (what we observe), causality describes intervention (what would happen if we act). The do-operator, introduced in 1995, provides this language by distinguishing P(Y|X) from P(Y|do(X)).
 
-## Key Works
+```mermaid
+graph TD
+    A[Bayesian Networks<br/>1980s] --> B[SCM Framework<br/>1990s]
+    B --> C[do-calculus<br/>1995]
+    C --> D[Counterfactuals<br/>2000s]
+    style A fill:#bbf,stroke:#333
+    style B fill:#bfb,stroke:#333
+    style C fill:#fbf,stroke:#333
+    style D fill:#fbb,stroke:#333
+```
 
-- "Causality: Models, Reasoning, and Inference" (2000)
-- "The Book of Why" (2018) - popular science
-- Causal inference in statistics: A primer (2016)
+His major contributions span multiple domains. [[Structural Causal Model]] unifies graphical and equation-based approaches to causality. [[do-calculus]] provides a complete algorithm for identifying causal effects from observational data. [[Bayesian Networks]] enable efficient probabilistic inference. The [[Counterfactual]] framework extends causal reasoning to individual-level "what-if" questions.
 
-## Impact
-
-Revolutionized causal inference by providing:
-- Graphical representation of causality
-- Mathematical tools for intervention
-- Framework for counterfactual reasoning
+Pearl's books "Causality: Models, Reasoning, and Inference" (2000) and "The Book of Why" (2018) established causal inference as a rigorous mathematical discipline while making it accessible to broader audiences. His ladder of causation—from association to intervention to counterfactuals—provides a conceptual framework for understanding different levels of causal reasoning.
