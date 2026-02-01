@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b220c177de780d76",
+        "id": "ecdadd500a569138",
         "type": "tabs",
-        "dimension": 55.97964376590331,
         "children": [
           {
-            "id": "e73feb7d30285b0a",
+            "id": "bb3589edb9348af7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,53 +19,23 @@
               },
               "icon": "lucide-file",
               "title": "Graphical models"
-            },
-            "group": "c44db8218ee8ec6b"
+            }
           }
         ]
       },
       {
-        "id": "ecdadd500a569138",
+        "id": "fc5982b1715ddb1b",
         "type": "tabs",
-        "dimension": 44.02035623409669,
         "children": [
           {
-            "id": "994d091024255e31",
+            "id": "bf0069e571c08fe5",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "graph/CausalInference/Graphical models.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 3,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              },
+              "type": "graph",
+              "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph of Graphical models"
-            },
-            "group": "c44db8218ee8ec6b"
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -232,11 +201,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7067aff2014fae2e",
+  "active": "bf0069e571c08fe5",
   "lastOpenFiles": [
-    "graph/CausalInference/Nodes.md",
-    "graph/CausalInference/Graph.md",
     "graph/CausalInference/Graphical models.md",
+    "graph/CausalInference/Edges.md",
+    "graph/CausalInference/Graph.md",
+    "graph/CausalInference/Nodes.md",
     "graph/CausalInference/Difference-in-Differences.md",
     "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Rubin Causal Model.md",
@@ -258,7 +228,6 @@
     "graph/CausalInference/Inverse probability weigthing.md",
     "graph/CausalInference/Fairness in Machine Learning.md",
     "graph/CausalInference/Inverse Probability Weighting.md",
-    "graph/CausalInference/Counterfactual.md",
-    "graph/CausalInference/Collider.md"
+    "graph/CausalInference/Counterfactual.md"
   ]
 }
