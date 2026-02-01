@@ -21,20 +21,6 @@
             "id": "550c75019c0dc5de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "graph/CausalInference/Structural Causal Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Structural Causal Model"
-            }
-          },
-          {
-            "id": "f4204fa1f1a70418",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -42,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,11 +192,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f4204fa1f1a70418",
+  "active": "550c75019c0dc5de",
   "lastOpenFiles": [
+    "README.md",
+    "ARCHITECTURE.md",
+    "MIGRATION.md",
+    "troubleshooting.md",
+    "REASONER_README.md",
+    "graph/CausalInference/Structural Causal Model.md",
+    "CLEANUP_SUMMARY.md",
+    "rag/knowledge_graph/test.md",
     "graph/CausalInference/Randomized Controlled Trial.md",
     "graph/CausalInference/Graphical models.md",
-    "graph/CausalInference/Structural Causal Model.md",
     "graph/CausalInference/Root Cause Analysis.md",
     "graph/CausalInference/Mediation Analysis.md",
     "graph/CausalInference/do-calculus.md",
@@ -226,13 +219,6 @@
     "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Rubin Causal Model.md",
     "graph/CausalInference/Subclassification.md",
-    "graph/CausalInference/Directed Acyclic Graph.md",
-    "graph/CausalInference/Causal Graph.md",
-    "graph/Artificial Intelligence.md",
-    "graph/CausalInference/Regression Discontinuity.md",
-    "graph/CausalInference/David Card.md",
-    "graph/CausalInference/Causal Inference.md",
-    "graph/CausalInference/Ronald Fisher.md",
-    "graph/CausalInference/Statistics.md"
+    "graph/CausalInference/Directed Acyclic Graph.md"
   ]
 }
