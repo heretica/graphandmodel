@@ -14,6 +14,7 @@ contributed_to:
 - '[[Propensity Score Matching]]'
 inferred_by: reasoner
 theory_applied_by:
+- '[[Difference-in-Differences]]'
 - '[[Subclassification]]'
 created: '[[Rubin Causal Model]]'
 ---
