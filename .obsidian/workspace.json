@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/Artificial Intelligence.md",
+                "file": "graph/CausalInference/Graphical models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Artificial Intelligence"
+              "title": "Graphical models"
             }
           }
         ]
@@ -185,10 +185,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f846e0779d2eae35",
+  "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
-    "graph/CausalInference/Judea Pearl.md",
     "graph/Artificial Intelligence.md",
+    "graph/CausalInference/Graphical models.md",
+    "graph/CausalInference/Graphical models.md",
+    "graph/CausalInference/Judea Pearl.md",
     "graph/CausalInference/Causality.md",
     "graph/CausalInference/Regression Discontinuity.md",
     "graph/CausalInference/David Card.md",
@@ -210,8 +212,6 @@
     "graph/CausalInference/Donald Rubin.md",
     "graph/CausalInference/Backdoor Criterion.md",
     "graph/Clustering.md",
-    "graph/Classification.md",
-    "rag/readme.md.md",
-    "Open AI.md"
+    "graph/Classification.md"
   ]
 }
