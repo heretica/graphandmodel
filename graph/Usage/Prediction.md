@@ -1,0 +1,4 @@
+---
+uses:
+  - "[[Artificial Intelligence]]"
+---

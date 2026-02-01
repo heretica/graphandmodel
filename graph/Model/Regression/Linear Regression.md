@@ -1,5 +1,5 @@
 ---
 type_model:
   - "[[Regression]]"
-usage: "[[Prediction]]"
+uses: "[[Prediction]]"
 ---
