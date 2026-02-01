@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Difference-in-Differences.md",
+                "file": "graph/CausalInference/David Card.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Difference-in-Differences"
+              "title": "David Card"
             }
           }
         ]
@@ -185,10 +185,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e73feb7d30285b0a",
+  "active": "f846e0779d2eae35",
   "lastOpenFiles": [
-    "graph/CausalInference/Randomized Controlled Trial.md",
     "graph/CausalInference/Difference-in-Differences.md",
+    "graph/CausalInference/David Card.md",
+    "graph/CausalInference/Economics.md",
+    "graph/CausalInference/Randomized Controlled Trial.md",
     "graph/CausalInference/Causal Inference.md",
     "graph/CausalInference/Ronald Fisher.md",
     "graph/CausalInference/Root Cause Analysis.md",
@@ -210,7 +212,6 @@
     "rag/readme.md.md",
     "Open AI.md",
     "README.md",
-    "word.md",
-    "syllable.md"
+    "word.md"
   ]
 }

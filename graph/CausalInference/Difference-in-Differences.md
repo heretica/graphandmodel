@@ -1,15 +1,12 @@
 ---
 parent: "[[Causal Inference]]"
-created_by: David Card
+created_by: "[[David Card]]"
 part_of: "[[Policy Evaluation]]"
 uses: "[[Structural Causal Model]]"
 used_for:
-field:
-  - - Economics
+  - "[[Policy Evaluation]]"
+field: "[[Economics]]"
 ---
-
-# Difference-in-Differences
-
 ## Overview
 
 Difference-in-Differences (DiD) is a quasi-experimental research design used to estimate causal effects by comparing the changes in outcomes over time between a treatment group and a control group. This method is particularly valuable when randomized controlled trials are infeasible or unethical.
