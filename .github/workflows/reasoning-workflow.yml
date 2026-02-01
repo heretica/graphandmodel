@@ -60,7 +60,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # Stage only graph markdown files
+          # Enable globstar for recursive pattern matching
+          shopt -s globstar
+
+          # Stage all markdown files in graph directory and subdirectories
           git add graph/**/*.md
 
           # Commit the changes
