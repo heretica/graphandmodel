@@ -14,6 +14,7 @@ ancestor_of:
 - '[[Randomized Controlled Trial]]'
 - '[[Regression Discontinuity]]'
 - '[[Root Cause Analysis]]'
+- '[[Subclassification]]'
 inferred_by: reasoner
 ---
 Causality (Wikidata: Q1137724) describes the relationship between causes and effects. In David Hume's classical formulation, causation involves constant conjunction, temporal priority, and necessary connection between events.
