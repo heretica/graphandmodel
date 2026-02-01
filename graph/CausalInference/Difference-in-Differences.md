@@ -1,10 +1,11 @@
 ---
-parent: [[Causal Inference]]
-created_by: [[David Card]]
-part_of: [[Policy Evaluation]]
-uses: [[Structural Causal Model]]
-used_for: [[Policy Evaluation]]
-field: [[Economics]]
+parent: "[[Causal Inference]]"
+created_by: David Card
+part_of: "[[Policy Evaluation]]"
+uses: "[[Structural Causal Model]]"
+used_for:
+field:
+  - - Economics
 ---
 
 # Difference-in-Differences
