@@ -8,8 +8,9 @@ type: application
 uses:
 - '[[Structural Causal Model]]'
 - '[[Counterfactual]]'
+indirectly_uses: '[[Graphical models]]'
+inferred_by: reasoner
 ---
-
 Causal inference provides a principled framework for reasoning about fairness in machine learning systems. Unlike purely statistical fairness criteria, causal fairness distinguishes legitimate from illegitimate influences and enables interventions to promote fairness.
 
 Statistical parity requires equal positive prediction rates across groups: P(Ŷ=1|A=0) = P(Ŷ=1|A=1) where A is a protected attribute. However, this criterion may be inappropriate when groups differ in relevant qualifications. Causal fairness criteria address this by considering the mechanisms generating outcomes.

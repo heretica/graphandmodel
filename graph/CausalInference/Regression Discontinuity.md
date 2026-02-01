@@ -5,11 +5,12 @@ part_of: '[[Policy Evaluation]]'
 uses: '[[Structural Causal Model]]'
 type: technique
 tags:
-  - method
-  - quasi-experimental
+- method
+- quasi-experimental
 field: '[[Economics]]'
+indirectly_uses: '[[Graphical models]]'
+inferred_by: reasoner
 ---
-
 # Regression Discontinuity
 
 ## Overview

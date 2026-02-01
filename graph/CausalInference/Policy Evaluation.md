@@ -6,8 +6,9 @@ tags:
 - economics
 type: application
 uses: '[[Structural Causal Model]]'
+indirectly_uses: '[[Graphical models]]'
+inferred_by: reasoner
 ---
-
 Policy evaluation assesses the causal impact of interventions, programs, or policies. Rigorous evaluation distinguishes true causal effects from spurious associations, informing decisions about whether to continue, expand, or modify policies.
 
 The fundamental question in policy evaluation is counterfactual: what would have happened without the policy? This counterfactual outcome cannot be observed directly—we see outcomes either with or without the policy, never both for the same unit at the same time.

@@ -1,13 +1,15 @@
 ---
-parent: "[[Causal Inference]]"
-created_by: "[[David Card]]"
-part_of: "[[Policy Evaluation]]"
+parent: '[[Causal Inference]]'
+created_by: '[[David Card]]'
+part_of: '[[Policy Evaluation]]'
 uses:
-  - "[[Structural Causal Model]]"
-  - "[[Rubin Causal Model]]"
+- '[[Structural Causal Model]]'
+- '[[Rubin Causal Model]]'
 used_for:
-  - "[[Policy Evaluation]]"
-field: "[[Economics]]"
+- '[[Policy Evaluation]]'
+field: '[[Economics]]'
+indirectly_uses: '[[Graphical models]]'
+inferred_by: reasoner
 ---
 ## Overview
 

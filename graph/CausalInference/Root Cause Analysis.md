@@ -1,14 +1,15 @@
 ---
-parent: "[[Causal Inference]]"
+parent: '[[Causal Inference]]'
 tags:
-  - application
-  - diagnostics
+- application
+- diagnostics
 type: application
 uses:
-  - "[[Structural Causal Model]]"
-  - "[[Counterfactual]]"
+- '[[Structural Causal Model]]'
+- '[[Counterfactual]]'
+indirectly_uses: '[[Graphical models]]'
+inferred_by: reasoner
 ---
-
 Root cause analysis identifies the fundamental causes of observed effects or failures. Unlike correlation-based diagnostics that identify symptoms, causal analysis traces effects back through causal pathways to find actionable intervention points.
 
 The causal approach builds a [[Structural Causal Model]] of the system, observes the effect or failure, then traces backward through causal paths using [[Counterfactual]] reasoning. A variable is a root cause if changing it would have prevented the effect while holding other causes constant.

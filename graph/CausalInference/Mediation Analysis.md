@@ -5,8 +5,9 @@ tags:
 - mechanisms
 type: analysis
 uses: '[[Structural Causal Model]]'
+indirectly_uses: '[[Graphical models]]'
+inferred_by: reasoner
 ---
-
 Mediation analysis decomposes causal effects into direct and indirect components, revealing the mechanisms through which causes produce effects. A mediator M lies on the causal pathway from treatment X to outcome Y, transmitting part of X's effect.
 
 The total effect of X on Y can be decomposed as: Total Effect = Direct Effect + Indirect Effect. The direct effect represents X's impact on Y not mediated through M. The indirect effect represents X's impact transmitted through M. This decomposition reveals how much of the causal effect operates through different pathways.
