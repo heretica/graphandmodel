@@ -8,7 +8,8 @@ tags:
 - method
 - quasi-experimental
 field: '[[Economics]]'
-indirectly_uses: '[[Graphical models]]'
+indirectly_uses:
+- '[[Graphical models]]'
 inferred_by: reasoner
 ---
 # Regression Discontinuity

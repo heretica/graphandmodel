@@ -7,7 +7,8 @@ type: application
 uses:
 - '[[Structural Causal Model]]'
 - '[[Counterfactual]]'
-indirectly_uses: '[[Graphical models]]'
+indirectly_uses:
+- '[[Graphical models]]'
 inferred_by: reasoner
 ---
 Root cause analysis identifies the fundamental causes of observed effects or failures. Unlike correlation-based diagnostics that identify symptoms, causal analysis traces effects back through causal pathways to find actionable intervention points.

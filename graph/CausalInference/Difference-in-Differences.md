@@ -8,7 +8,8 @@ uses:
 used_for:
 - '[[Policy Evaluation]]'
 field: '[[Economics]]'
-indirectly_uses: '[[Graphical models]]'
+indirectly_uses:
+- '[[Graphical models]]'
 inferred_by: reasoner
 ---
 ## Overview

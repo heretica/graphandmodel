@@ -8,7 +8,8 @@ type: application
 uses:
 - '[[Structural Causal Model]]'
 - '[[Counterfactual]]'
-indirectly_uses: '[[Graphical models]]'
+indirectly_uses:
+- '[[Graphical models]]'
 inferred_by: reasoner
 ---
 Causal inference provides a principled framework for reasoning about fairness in machine learning systems. Unlike purely statistical fairness criteria, causal fairness distinguishes legitimate from illegitimate influences and enables interventions to promote fairness.
