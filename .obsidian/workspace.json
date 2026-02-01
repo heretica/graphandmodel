@@ -11,20 +11,28 @@
             "id": "bf0069e571c08fe5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "graph/TabPFN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TabPFN"
             }
           },
           {
             "id": "550c75019c0dc5de",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "graph/CausalInference/Structural Causal Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Structural Causal Model"
             }
           },
           {
@@ -38,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7067aff2014fae2e",
+  "active": "eba2221030d3d318",
   "lastOpenFiles": [
     "graph/TabPFN.md",
     "graph/CausalInference/Structural Causal Model.md",
@@ -228,7 +236,6 @@
     "graph/CausalInference/Graph.md",
     "graph/CausalInference/Difference-in-Differences.md",
     "graph/CausalInference/Donald Rubin.md",
-    "graph/CausalInference/Rubin Causal Model.md",
-    "graph/CausalInference/Subclassification.md"
+    "graph/CausalInference/Rubin Causal Model.md"
   ]
 }

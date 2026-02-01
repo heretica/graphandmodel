@@ -1,0 +1,4 @@
+---
+uses:
+  - "[[Structural Causal Model]]"
+---
