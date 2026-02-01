@@ -10,6 +10,7 @@ ancestor_of:
 - '[[Mediation Analysis]]'
 - '[[Policy Evaluation]]'
 - '[[Propensity Score Matching]]'
+- '[[Randomized Controlled Trial]]'
 - '[[Root Cause Analysis]]'
 inferred_by: reasoner
 ---

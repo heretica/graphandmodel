@@ -16,6 +16,7 @@ theory_applied_by:
 - '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'
 - '[[Policy Evaluation]]'
+- '[[Randomized Controlled Trial]]'
 - '[[Root Cause Analysis]]'
 inferred_by: reasoner
 ---
