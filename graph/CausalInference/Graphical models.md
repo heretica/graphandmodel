@@ -9,7 +9,9 @@ ancestor_of:
 inferred_by: reasoner
 uses:
 - '[[Graph]]'
-indirectly_uses: '[[Nodes]]'
+indirectly_uses:
+- '[[Edges]]'
+- '[[Nodes]]'
 ---
 Graphical models use graph-structured representations to encode probability distributions and conditional independence relationships between variables. They provide a unified framework for probabilistic reasoning and causal inference.
 
