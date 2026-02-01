@@ -3,33 +3,40 @@ tags:
 - overview
 - causal-inference
 type: framework
+wikidata: Q7628072
 ---
 
-A Structural Causal Model (SCM) is a mathematical framework for representing and reasoning about causality. It combines:
+A Structural Causal Model (SCM, Wikidata: Q7628072) provides a mathematical framework for representing and reasoning about causality. Developed primarily by Judea Pearl, it unifies graphical models with structural equations to enable rigorous causal inference.
 
-- **Graphical Models**: Directed acyclic graphs (DAGs) representing causal relationships
-- **Structural Equations**: Mathematical equations defining how variables relate
-- **Interventions**: Formal operations modeling external manipulations
-- **Counterfactual Reasoning**: Framework for "what if" questions
+> "The Structural Causal Model provides a formal language for expressing causal assumptions and a calculus for deriving causal conclusions from those assumptions." — Judea Pearl
 
-## Key Components
+The framework consists of three main components: a set of endogenous variables V (those determined by the model), exogenous variables U (external factors), and structural equations F that define how each variable is generated from its causes.
 
-An SCM consists of:
-1. Endogenous variables (affected by the model)
-2. Exogenous variables (external influences)
-3. Structural equations linking variables
-4. A causal graph showing dependencies
+```python
+# Example SCM structure
+class StructuralCausalModel:
+    def __init__(self):
+        self.U = {}  # Exogenous variables
+        self.V = {}  # Endogenous variables
+        self.F = {}  # Structural equations
 
-## Framework
+    def intervene(self, variable, value):
+        # do-operator: set variable to value
+        self.V[variable] = value
+        # Remove incoming edges in causal graph
+```
 
-SCM = (U, V, F) where:
-- U: Exogenous (background) variables
-- V: Endogenous (observable) variables
-- F: Set of structural equations
+The mathematical representation is: **M = (U, V, F)** where F defines each v ∈ V as a function of other variables and noise terms from U.
 
-## Applications
+```mermaid
+graph TD
+    U1[Exogenous U] --> X[Treatment X]
+    U2[Exogenous U] --> Y[Outcome Y]
+    X --> Y
+    style U1 fill:#f9f,stroke:#333
+    style U2 fill:#f9f,stroke:#333
+    style X fill:#bbf,stroke:#333
+    style Y fill:#bfb,stroke:#333
+```
 
-- Policy evaluation and decision making
-- Root cause analysis
-- Mediation and moderation analysis
-- Fairness assessment in AI systems
+SCMs enable three levels of causal reasoning: association (observing patterns), intervention (predicting effects of actions), and counterfactuals (reasoning about alternative scenarios).
