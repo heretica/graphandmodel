@@ -19,7 +19,52 @@
               },
               "icon": "lucide-file",
               "title": "Graphical models"
-            }
+            },
+            "group": "c44db8218ee8ec6b"
+          }
+        ]
+      },
+      {
+        "id": "ecdadd500a569138",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "994d091024255e31",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "graph/CausalInference/Graphical models.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Graphical models"
+            },
+            "group": "c44db8218ee8ec6b"
           }
         ]
       }
@@ -78,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "02085196d74528b2",
@@ -185,7 +231,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e73feb7d30285b0a",
+  "active": "994d091024255e31",
   "lastOpenFiles": [
     "graph/Artificial Intelligence.md",
     "graph/CausalInference/Graphical models.md",

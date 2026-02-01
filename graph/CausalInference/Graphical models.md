@@ -23,8 +23,6 @@ Graphical models form the mathematical foundation for structural causal models, 
 - **d-separation**: Graph-based conditional independence
 - **Markov Property**: Variables are independent of non-descendants given parents
 
-  
-
 ## Historical Development
 
 Graphical models emerged from the intersection of probability theory, graph theory, and statistics. Judea Pearl's work on Bayesian networks in the 1980s popularized the framework, showing how graphs could represent causal relationships and enable efficient probabilistic inference.
@@ -32,12 +30,7 @@ Graphical models emerged from the intersection of probability theory, graph theo
 
 Graphical models provide the formal mathematical foundation for causal inference. Directed acyclic graphs (DAGs) represent causal structures, where edges indicate direct causal effects and the graph topology encodes conditional independence assumptions.
 
-  
-
 ## Further Reading
 
-  
-
 - Pearl, J. (1988). *Probabilistic Reasoning in Intelligent Systems*. Morgan Kaufmann.
-
 - Koller, D., & Friedman, N. (2009). *Probabilistic Graphical Models: Principles and Techniques*. MIT Press.
