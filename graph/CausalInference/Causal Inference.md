@@ -7,7 +7,8 @@ wikidata: Q1195958
 related:
 - '[[Statistics]]'
 - '[[Machine Learning]]'
-domain_encompasses: '[[Propensity Score Matching]]'
+domain_encompasses:
+- '[[Propensity Score Matching]]'
 inferred_by: reasoner
 ---
 Causal inference (Wikidata: Q1195958) is the process of determining cause-and-effect relationships from data. Unlike predictive modeling, which focuses on association, causal inference aims to answer questions about what would happen under interventions or counterfactual scenarios.
