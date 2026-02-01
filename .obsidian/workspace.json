@@ -6,7 +6,7 @@
       {
         "id": "b220c177de780d76",
         "type": "tabs",
-        "dimension": 68.32061068702289,
+        "dimension": 55.97964376590331,
         "children": [
           {
             "id": "e73feb7d30285b0a",
@@ -28,7 +28,7 @@
       {
         "id": "ecdadd500a569138",
         "type": "tabs",
-        "dimension": 31.679389312977097,
+        "dimension": 44.02035623409669,
         "children": [
           {
             "id": "994d091024255e31",
@@ -218,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e73feb7d30285b0a",
+  "active": "7067aff2014fae2e",
   "lastOpenFiles": [
     "graph/CausalInference/Nodes.md",
     "graph/CausalInference/Graph.md",
