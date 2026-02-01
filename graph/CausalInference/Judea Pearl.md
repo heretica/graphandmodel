@@ -12,6 +12,7 @@ known_for:
 - '[[Structural Causal Model]]'
 - '[[do-calculus]]'
 theory_applied_by:
+- '[[Difference-in-Differences]]'
 - '[[Fairness in Machine Learning]]'
 - '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'

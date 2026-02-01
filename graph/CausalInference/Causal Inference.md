@@ -9,6 +9,7 @@ related:
 - '[[Machine Learning]]'
 domain_encompasses:
 - '[[Causal Inference]]'
+- '[[Policy Evaluation]]'
 - '[[Propensity Score Matching]]'
 inferred_by: reasoner
 ---

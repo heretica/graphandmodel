@@ -5,6 +5,7 @@ type: concept
 parent: '[[Philosophy of Science]]'
 wikidata: Q1137724
 ancestor_of:
+- '[[Difference-in-Differences]]'
 - '[[Instrumental Variables]]'
 - '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'
