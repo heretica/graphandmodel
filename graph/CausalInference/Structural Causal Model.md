@@ -1,9 +1,11 @@
 ---
 tags:
-- overview
-- causal-inference
+  - overview
+  - causal-inference
 type: framework
 wikidata: Q7628072
+uses:
+  - "[[Graphical models]]"
 ---
 
 A Structural Causal Model (SCM, Wikidata: Q7628072) provides a mathematical framework for representing and reasoning about causality. Developed primarily by Judea Pearl, it unifies graphical models with structural equations to enable rigorous causal inference.
