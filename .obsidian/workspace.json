@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graph/CausalInference/Untitled.md",
+                "file": "graph/CausalInference/Inverse probability weigthing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Inverse probability weigthing"
             }
           }
         ]
@@ -188,7 +188,7 @@
   "active": "e73feb7d30285b0a",
   "lastOpenFiles": [
     "graph/CausalInference/Fairness in Machine Learning.md",
-    "graph/CausalInference/Untitled.md",
+    "graph/CausalInference/Inverse probability weigthing.md",
     "graph/CausalInference/Inverse Probability Weighting.md",
     "graph/CausalInference/Directed Acyclic Graph.md",
     "graph/CausalInference/Counterfactual.md",
