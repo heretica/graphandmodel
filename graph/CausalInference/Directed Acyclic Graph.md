@@ -6,8 +6,14 @@ tags:
 type: structure
 wikidata: Q842346
 used_in: '[[Structural Causal Model]]'
+ancestor_of:
+- '[[Backdoor Criterion]]'
+- '[[Confounder]]'
+- '[[d-separation]]'
+- '[[Collider]]'
+inferred_by: reasoner
+domain_encompasses: '[[Structural Causal Model]]'
 ---
-
 A Directed Acyclic Graph (DAG, Wikidata: Q842346) is a graph structure with directed edges that contains no cycles. In graph theory, this means you cannot start at any vertex and follow the directed edges to return to that same vertex.
 
 DAGs have the useful property of topological ordering: vertices can be linearly ordered such that for every directed edge from vertex A to vertex B, A comes before B in the ordering. This property makes DAGs particularly suitable for representing causal relationships, where causes must precede their effects.
