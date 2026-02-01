@@ -12,6 +12,7 @@ ancestor_of:
 - '[[Policy Evaluation]]'
 - '[[Propensity Score Matching]]'
 - '[[Randomized Controlled Trial]]'
+- '[[Regression Discontinuity]]'
 - '[[Root Cause Analysis]]'
 inferred_by: reasoner
 ---

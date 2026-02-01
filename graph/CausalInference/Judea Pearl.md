@@ -18,6 +18,7 @@ theory_applied_by:
 - '[[Mediation Analysis]]'
 - '[[Policy Evaluation]]'
 - '[[Randomized Controlled Trial]]'
+- '[[Regression Discontinuity]]'
 - '[[Root Cause Analysis]]'
 inferred_by: reasoner
 ---
