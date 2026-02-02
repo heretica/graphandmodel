@@ -1,4 +1,4 @@
-A reasoning engine for Obsidian knowledge graphs that automatically infers new relationships and enriches your knowledge base.
+A reasoning engine applied to an Obsidian vault, automatically inferring new relationships and enriching the knowledge base.
 
 ## 🏗️ Architecture
 
