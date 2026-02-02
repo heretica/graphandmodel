@@ -1,3 +1,5 @@
+# Reasoning Obsidian 
+
 A reasoning engine applied to an Obsidian vault, automatically inferring new relationships and enriching the knowledge base.
 
 ## 🏗️ Architecture
