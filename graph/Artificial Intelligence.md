@@ -1,9 +1,9 @@
 ---
 uses:
-  - "[[Abstraction]]"
+- '[[Abstraction]]'
 used_by:
-  - "[[Prediction]]"
+- '[[Prediction]]'
 inferred_by: reasoner
 created_by:
-  - "[[Dartmouth workshop]]"
+- '[[Dartmouth workshop]]'
 ---
