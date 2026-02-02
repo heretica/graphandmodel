@@ -1,8 +1,10 @@
 ---
-parent: '[[Structural Causal Model]]'
+parent:
+  - "[[Structural Causal Model]]"
+  - "[[Causal inference]]"
 tags:
-- reasoning
-- what-if
+  - reasoning
+  - what-if
 type: concept
 wikidata: Q5229125
 ---
