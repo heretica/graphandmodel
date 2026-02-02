@@ -5,8 +5,9 @@ tags:
 - graph
 type: representation
 part_of: '[[Structural Causal Model]]'
+domain_encompasses: '[[path structures]]'
+inferred_by: reasoner
 ---
-
 A causal graph is a directed acyclic graph where edges represent direct causal relationships between variables. Unlike correlation networks that show statistical associations, causal graphs encode the actual data-generating process.
 
 Each directed edge X → Y in a causal graph means that X is a direct cause of Y: changing X through intervention would change Y, holding all other direct causes constant. Absence of an edge indicates no direct causal effect, though indirect effects through other variables may still exist.
