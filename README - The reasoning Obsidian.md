@@ -1,5 +1,3 @@
-# Obsidian Graph Reasoner
-
 A reasoning engine for Obsidian knowledge graphs that automatically infers new relationships and enriches your knowledge base.
 
 ## 🏗️ Architecture
@@ -22,12 +20,13 @@ src/
 
 ## ✨ Features
 
-- **Automatic Fact Extraction**: Parses YAML frontmatter from Obsidian markdown files
-- **Logical Reasoning**: Applies 12 inference rules (6 domain-specific + 6 OWL-inspired) to discover new relationships:
+**Automatic Fact Extraction**: Parses YAML frontmatter from Obsidian markdown files
+
+**Logical Reasoning**: Applies 12 inference rules (6 domain-specific + 6 OWL-inspired) to discover new relationships:
 
   **Domain-Specific Rules:**
-  1. **Transitive Parent** (ANCESTOR_OF): If A parent of B, and B parent of C → A ancestor of C
-  2. **Transitive Part-Of** (TRANSITIVELY_PART_OF): If A part of B, and B part of C → A transitively part of C
+1. **Transitive Parent** (ANCESTOR_OF): If A parent of B, and B parent of C → A ancestor of C
+2. **Transitive Part-Of** (TRANSITIVELY_PART_OF): If A part of B, and B part of C → A transitively part of C
   3. **Contribution** (CONTRIBUTED_TO): If Creator created X, and X part of Y → Creator contributed to Y
   4. **Indirect Usage** (INDIRECTLY_USES): If A uses X, and X uses Y → A indirectly uses Y
   5. **Domain Encompasses** (DOMAIN_ENCOMPASSES): If A parent of X, and X part of Y → A's domain encompasses Y
