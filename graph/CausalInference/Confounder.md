@@ -5,7 +5,8 @@ tags:
 - confounding
 type: pattern
 wikidata: Q1195958
-used_by: '[[Pearl Diagrams]]'
+used_by:
+- '[[Pearl Diagrams]]'
 inferred_by: reasoner
 ---
 A confounder is a variable that influences both treatment and outcome, creating a spurious association between them. Without controlling for confounders, observed associations confound causal effects with bias from common causes.

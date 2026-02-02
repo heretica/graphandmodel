@@ -14,8 +14,8 @@ indirectly_uses:
 - '[[Structural Causal Model]]'
 inferred_by: reasoner
 requires_understanding:
-- '[[Structural Causal Model]]'
 - '[[Graphical models]]'
+- '[[Structural Causal Model]]'
 ---
 ## Overview
 

@@ -10,8 +10,10 @@ uses:
 indirectly_uses:
 - '[[Graphical models]]'
 inferred_by: reasoner
-requires_understanding: '[[Graphical models]]'
-used_by: '[[Randomized Controlled Trial]]'
+requires_understanding:
+- '[[Graphical models]]'
+used_by:
+- '[[Randomized Controlled Trial]]'
 ---
 Root cause analysis identifies the fundamental causes of observed effects or failures. Unlike correlation-based diagnostics that identify symptoms, causal analysis traces effects back through causal pathways to find actionable intervention points.
 

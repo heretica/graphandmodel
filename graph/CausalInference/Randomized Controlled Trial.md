@@ -16,7 +16,7 @@ indirectly_uses:
 inferred_by: reasoner
 requires_understanding:
 - '[[Counterfactual]]'
-- '[[Structural Causal Model]]'
 - '[[Graphical models]]'
+- '[[Structural Causal Model]]'
 ---
 The golden technique to prove causality 

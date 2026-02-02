@@ -12,7 +12,8 @@ uses:
 indirectly_uses:
 - '[[Edges]]'
 - '[[Nodes]]'
-used_by: '[[Structural Causal Model]]'
+used_by:
+- '[[Structural Causal Model]]'
 requires_understanding:
 - '[[Edges]]'
 - '[[Nodes]]'

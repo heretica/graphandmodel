@@ -1,6 +1,7 @@
 ---
 uses:
 - '[[Artificial Intelligence]]'
-used_by: '[[Linear Regression]]'
+used_by:
+- '[[Linear Regression]]'
 inferred_by: reasoner
 ---

@@ -9,20 +9,23 @@ uses:
 indirectly_uses:
 - '[[Graph]]'
 inferred_by: reasoner
-created_by: '[[Judea Pearl]]'
+created_by:
+- '[[Judea Pearl]]'
 used_by:
-- '[[Mediation Analysis]]'
-- '[[Inverse probability weigthing]]'
-- '[[TabPFN]]'
-- '[[Directed Acyclic Graph]]'
 - '[[Difference-in-Differences]]'
-- '[[Regression Discontinuity]]'
-- '[[Policy Evaluation]]'
+- '[[Directed Acyclic Graph]]'
 - '[[Fairness in Machine Learning]]'
+- '[[Inverse probability weigthing]]'
+- '[[Mediation Analysis]]'
+- '[[Policy Evaluation]]'
 - '[[Randomized Controlled Trial]]'
+- '[[Regression Discontinuity]]'
 - '[[Root Cause Analysis]]'
-requires_understanding: '[[Graph]]'
-has_part: '[[Causal Graph]]'
+- '[[TabPFN]]'
+requires_understanding:
+- '[[Graph]]'
+has_part:
+- '[[Causal Graph]]'
 ---
 A Structural Causal Model (SCM, Wikidata: Q7628072) provides a mathematical framework for representing and reasoning about causality. Developed primarily by Judea Pearl, it unifies graphical models with structural equations to enable rigorous causal inference.
 

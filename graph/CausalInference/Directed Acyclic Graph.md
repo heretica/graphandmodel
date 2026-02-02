@@ -16,8 +16,10 @@ domain_encompasses:
 - '[[Structural Causal Model]]'
 is_a: '[[Graph]]'
 inferred_by: reasoner
-indirectly_uses: '[[Graphical models]]'
-requires_understanding: '[[Graphical models]]'
+indirectly_uses:
+- '[[Graphical models]]'
+requires_understanding:
+- '[[Graphical models]]'
 ---
 A Directed Acyclic Graph (DAG, Wikidata: Q842346) is a graph structure with directed edges that contains no cycles. In graph theory, this means you cannot start at any vertex and follow the directed edges to return to that same vertex.
 

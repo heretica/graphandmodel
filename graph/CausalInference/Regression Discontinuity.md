@@ -12,7 +12,8 @@ field: '[[Economics]]'
 indirectly_uses:
 - '[[Graphical models]]'
 inferred_by: reasoner
-requires_understanding: '[[Graphical models]]'
+requires_understanding:
+- '[[Graphical models]]'
 ---
 # Regression Discontinuity
 
