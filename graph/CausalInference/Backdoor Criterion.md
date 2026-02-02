@@ -1,10 +1,10 @@
 ---
-parent: '[[Causal Graph]]'
+parent: "[[Causal Graph]]"
 tags:
-- criterion
-- confounding
+  - criterion
+  - confounding
 type: method
-used_for: '[[Causal Inference]]'
+used_for: "[[Causal inference]]"
 ---
 
 The backdoor criterion identifies sufficient sets of variables for controlling confounding when estimating causal effects. A set Z satisfies the backdoor criterion relative to ordered pair (X,Y) if it blocks all backdoor paths from X to Y and contains no descendants of X.

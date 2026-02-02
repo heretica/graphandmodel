@@ -43,4 +43,8 @@ graph TD
     style Y fill:#bfb,stroke:#333
 ```
 
-SCMs enable three levels of causal reasoning: association (observing patterns), intervention (predicting effects of actions), and counterfactuals (reasoning about alternative scenarios).
+SCMs enable three levels of causal reasoning:  
+
+- association (observing patterns)
+- intervention (predicting effects of actions)
+- counterfactuals (reasoning about alternative scenarios).

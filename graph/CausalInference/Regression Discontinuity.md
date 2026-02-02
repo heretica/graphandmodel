@@ -1,15 +1,15 @@
 ---
-parent: '[[Causal Inference]]'
-created_by: '[[Donald Campbell]]'
-part_of: '[[Policy Evaluation]]'
-uses: '[[Structural Causal Model]]'
+parent: "[[Causal inference]]"
+created_by: "[[Donald Campbell]]"
+part_of: "[[Policy Evaluation]]"
+uses: "[[Structural Causal Model]]"
 type: technique
 tags:
-- method
-- quasi-experimental
-field: '[[Economics]]'
+  - method
+  - quasi-experimental
+field: "[[Economics]]"
 indirectly_uses:
-- '[[Graphical models]]'
+  - "[[Graphical models]]"
 inferred_by: reasoner
 ---
 # Regression Discontinuity

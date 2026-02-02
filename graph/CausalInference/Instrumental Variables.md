@@ -1,11 +1,11 @@
 ---
-parent: '[[Causal Inference]]'
+parent: "[[Causal inference]]"
 tags:
-- method
-- econometrics
+  - method
+  - econometrics
 type: technique
 wikidata: Q1195958
-used_for: '[[Confounding Control]]'
+used_for: "[[Confounding Control]]"
 ---
 
 Instrumental variable (IV) methods estimate causal effects in the presence of unobserved confounding. An instrument is a variable Z that affects treatment X but influences outcome Y only through its effect on X, providing an exogenous source of variation in treatment.

@@ -1,11 +1,11 @@
 ---
-parent: '[[Causal Inference]]'
-uses: '[[Rubin Causal Model]]'
+parent: "[[Causal inference]]"
+uses: "[[Rubin Causal Model]]"
 type: technique
 tags:
-- method
-- matching
-related_to: '[[Propensity Score Matching]]'
+  - method
+  - matching
+related_to: "[[Propensity Score Matching]]"
 ---
 Subclassification (also called stratification) is a causal inference method that estimates treatment effects by dividing units into homogeneous subgroups based on observed covariates. Within each subclass, treated and control units are assumed comparable, allowing unbiased estimation of causal effects.
 

@@ -1,8 +1,8 @@
 ---
-parent: '[[Causal Inference]]'
+parent: "[[Causal inference]]"
 tags:
-- method
-- matching
+  - method
+  - matching
 type: technique
 wikidata: Q7251139
 ---
