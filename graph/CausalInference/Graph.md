@@ -1,5 +1,7 @@
 ---
 uses:
-  - "[[Nodes]]"
-  - "[[Edges]]"
+- '[[Nodes]]'
+- '[[Edges]]'
+used_by: '[[Graphical models]]'
+inferred_by: reasoner
 ---

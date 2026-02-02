@@ -8,6 +8,7 @@ uses: '[[Structural Causal Model]]'
 indirectly_uses:
 - '[[Graphical models]]'
 inferred_by: reasoner
+requires_understanding: '[[Graphical models]]'
 ---
 Mediation analysis decomposes causal effects into direct and indirect components, revealing the mechanisms through which causes produce effects. A mediator M lies on the causal pathway from treatment X to outcome Y, transmitting part of X's effect.
 

@@ -4,9 +4,10 @@ tags:
 - method
 - intervention
 type: calculus
-created_by: '[[Judea Pearl]]'
+created_by:
+- '[[Judea Pearl]]'
+inferred_by: reasoner
 ---
-
 The do-calculus is a set of inference rules for manipulating expressions involving the do-operator, which represents external interventions in causal models. Developed by Judea Pearl in 1995, it provides a complete algorithm for determining whether causal effects can be computed from observational data.
 
 The do-operator distinguishes seeing (observation) from doing (intervention). While P(Y|X=x) represents the conditional probability of Y given that we observe X=x, P(Y|do(X=x)) represents the probability of Y when we externally set X to x, removing all other influences on X.

@@ -5,8 +5,9 @@ tags:
 - confounding
 type: pattern
 wikidata: Q1195958
+used_by: '[[Pearl Diagrams]]'
+inferred_by: reasoner
 ---
-
 A confounder is a variable that influences both treatment and outcome, creating a spurious association between them. Without controlling for confounders, observed associations confound causal effects with bias from common causes.
 
 The confounding structure forms a fork in the causal graph: Z → X and Z → Y. This creates a backdoor path X ← Z → Y that must be blocked to isolate the direct causal effect X → Y. Failing to account for Z leads to omitted variable bias in effect estimates.

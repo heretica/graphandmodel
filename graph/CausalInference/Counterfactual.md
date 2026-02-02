@@ -1,14 +1,17 @@
 ---
 parent:
-  - "[[Structural Causal Model]]"
-  - "[[Causal inference]]"
+- '[[Structural Causal Model]]'
+- '[[Causal inference]]'
 tags:
-  - reasoning
-  - what-if
+- reasoning
+- what-if
 type: concept
 wikidata: Q5229125
+used_by:
+- '[[Fairness in Machine Learning]]'
+- '[[Root Cause Analysis]]'
+inferred_by: reasoner
 ---
-
 Counterfactuals (Wikidata: Q5229125) express statements about what would have happened under different circumstances. The notation Y_x or Y(x) represents "the value Y would have taken, had X been x" even when X was actually something else.
 
 Judea Pearl's ladder of causation distinguishes three levels of reasoning. Level 1 (association) involves passive observation: P(Y|X) asks what we expect given what we see. Level 2 (intervention) involves active manipulation: P(Y|do(X)) asks what would happen if we act. Level 3 (counterfactual) involves retrospective reasoning: P(Y_x|X',Y') asks what would have happened if things had been different.

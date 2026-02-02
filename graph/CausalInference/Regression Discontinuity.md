@@ -1,6 +1,7 @@
 ---
 parent: '[[Causal inference]]'
-created_by: '[[Donald Campbell]]'
+created_by:
+- '[[Donald Campbell]]'
 part_of: '[[Policy Evaluation]]'
 uses: '[[Structural Causal Model]]'
 type: technique
@@ -11,6 +12,7 @@ field: '[[Economics]]'
 indirectly_uses:
 - '[[Graphical models]]'
 inferred_by: reasoner
+requires_understanding: '[[Graphical models]]'
 ---
 # Regression Discontinuity
 

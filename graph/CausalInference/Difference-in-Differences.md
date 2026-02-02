@@ -1,6 +1,7 @@
 ---
 parent: '[[Causal inference]]'
-created_by: '[[David Card]]'
+created_by:
+- '[[David Card]]'
 part_of: '[[Policy Evaluation]]'
 uses:
 - '[[Structural Causal Model]]'
@@ -10,7 +11,11 @@ used_for:
 field: '[[Economics]]'
 indirectly_uses:
 - '[[Graphical models]]'
+- '[[Structural Causal Model]]'
 inferred_by: reasoner
+requires_understanding:
+- '[[Structural Causal Model]]'
+- '[[Graphical models]]'
 ---
 ## Overview
 

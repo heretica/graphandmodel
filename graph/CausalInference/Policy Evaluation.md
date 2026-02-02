@@ -9,6 +9,14 @@ uses: '[[Structural Causal Model]]'
 indirectly_uses:
 - '[[Graphical models]]'
 inferred_by: reasoner
+has_part:
+- '[[Difference-in-Differences]]'
+- '[[Regression Discontinuity]]'
+used_by:
+- '[[Inverse probability weigthing]]'
+- '[[Difference-in-Differences]]'
+- '[[Randomized Controlled Trial]]'
+requires_understanding: '[[Graphical models]]'
 ---
 Policy evaluation assesses the causal impact of interventions, programs, or policies. Rigorous evaluation distinguishes true causal effects from spurious associations, informing decisions about whether to continue, expand, or modify policies.
 

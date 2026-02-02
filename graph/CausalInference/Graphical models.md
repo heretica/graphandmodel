@@ -12,6 +12,10 @@ uses:
 indirectly_uses:
 - '[[Edges]]'
 - '[[Nodes]]'
+used_by: '[[Structural Causal Model]]'
+requires_understanding:
+- '[[Edges]]'
+- '[[Nodes]]'
 ---
 Graphical models use graph-structured representations to encode probability distributions and conditional independence relationships between variables. They provide a unified framework for probabilistic reasoning and causal inference.
 

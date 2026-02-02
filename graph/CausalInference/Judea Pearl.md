@@ -13,6 +13,7 @@ known_for:
 - '[[do-calculus]]'
 theory_applied_by:
 - '[[Difference-in-Differences]]'
+- '[[Directed Acyclic Graph]]'
 - '[[Fairness in Machine Learning]]'
 - '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'

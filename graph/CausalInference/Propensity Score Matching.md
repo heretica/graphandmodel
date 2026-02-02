@@ -1,12 +1,14 @@
 ---
-parent: "[[Causal inference]]"
+parent: '[[Causal inference]]'
 tags:
-  - method
-  - matching
+- method
+- matching
 type: technique
 wikidata: Q7251139
+created_by: '[[Donald Rubin]]'
+inferred_by: reasoner
+has_part: '[[Inverse probability weigthing]]'
 ---
-
 Propensity score matching balances treatment and control groups on observed covariates by matching units with similar probabilities of treatment. Introduced by Paul Rosenbaum and Donald Rubin in 1983, the method reduces bias from observed confounding in observational studies.
 
 The propensity score e(X) = P(T=1|X) is the probability that a unit receives treatment given covariates X. Rosenbaum and Rubin showed that conditioning on the propensity score is equivalent to conditioning on all covariates X when estimating treatment effects under unconfoundedness.

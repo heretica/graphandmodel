@@ -5,8 +5,11 @@ type: concept
 parent: '[[Philosophy of Science]]'
 wikidata: Q1137724
 ancestor_of:
+- '[[Association]]'
+- '[[Counterfactual]]'
 - '[[Difference-in-Differences]]'
 - '[[Instrumental Variables]]'
+- '[[Intervention]]'
 - '[[Inverse probability weigthing]]'
 - '[[Mediation Analysis]]'
 - '[[Policy Evaluation]]'
