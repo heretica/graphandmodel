@@ -18,12 +18,23 @@ class DiscoveryPersister:
 
     # Map relation types to YAML frontmatter keys
     RELATION_TO_KEY = {
+        # Original domain-specific relations
         'ANCESTOR_OF': 'ancestor_of',
         'THEORY_APPLIED_BY': 'theory_applied_by',
         'DOMAIN_ENCOMPASSES': 'domain_encompasses',
         'CONTRIBUTED_TO': 'contributed_to',
         'INDIRECTLY_USES': 'indirectly_uses',
-        'TRANSITIVELY_PART_OF': 'transitively_part_of'
+        'TRANSITIVELY_PART_OF': 'transitively_part_of',
+        # New OWL-inspired relations
+        'COAUTHOR_OF': 'coauthor_of',
+        'COLLABORATES_WITH': 'collaborates_with',
+        'CREATED_BY': 'created_by',
+        'USED_BY': 'used_by',
+        'HAS_PART': 'has_part',
+        'INHERITS_METHODOLOGY_FROM': 'inherits_methodology_from',
+        'CONTRIBUTED_TO_FIELD': 'contributed_to_field',
+        'BRIDGES_DOMAIN': 'bridges_domain',
+        'REQUIRES_UNDERSTANDING': 'requires_understanding',
     }
 
     def __init__(self, vault_path: Path):

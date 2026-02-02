@@ -15,6 +15,7 @@ class ObsidianFactExtractor:
 
     # Map YAML keys to relation types
     RELATION_MAPPINGS = {
+        # Original mappings
         'parent': ('PARENT_OF', True),  # (relation_type, inverted)
         'type_model': ('IS_A', False),
         'part_of': ('PART_OF', False),
@@ -24,6 +25,10 @@ class ObsidianFactExtractor:
         'created_by': ('CREATED', True),
         'field': ('WORKS_IN', False),
         'used_for': ('USED_FOR', False),
+        # New OWL-inspired mappings
+        'coauthor_of': ('COAUTHOR_OF', False),
+        'collaborates_with': ('COLLABORATES_WITH', False),
+        'works_in': ('WORKS_IN', False),
     }
 
     def __init__(self, vault_path: Path):
