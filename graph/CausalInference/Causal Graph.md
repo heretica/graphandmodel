@@ -1,11 +1,11 @@
 ---
-parent: '[[Directed Acyclic Graph]]'
+parent: "[[Directed Acyclic Graph]]"
 tags:
-- causal-inference
-- graph
+  - causal-inference
+  - graph
 type: representation
-part_of: '[[Structural Causal Model]]'
-domain_encompasses: '[[path structures]]'
+part_of: "[[Structural Causal Model]]"
+domain_encompasses: "[[Path structures]]"
 inferred_by: reasoner
 ---
 A causal graph is a directed acyclic graph where edges represent direct causal relationships between variables. Unlike correlation networks that show statistical associations, causal graphs encode the actual data-generating process.

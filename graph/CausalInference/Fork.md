@@ -1,4 +1,4 @@
 ---
 parent: "[[Causal Graph]]"
-part_of: "[[path structures]]"
+part_of: "[[Path structures]]"
 ---
