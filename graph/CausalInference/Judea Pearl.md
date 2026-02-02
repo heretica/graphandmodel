@@ -1,28 +1,28 @@
 ---
 tags:
-  - researcher
-  - ai
-  - causality
+- researcher
+- ai
+- causality
 type: person
 wikidata: Q92743
 field:
-  - "[[Artificial Intelligence]]"
-  - "[[Causal inference]]"
+- '[[Artificial Intelligence]]'
+- '[[Causal inference]]'
 known_for:
-  - "[[Structural Causal Model]]"
-  - "[[do-calculus]]"
+- '[[Structural Causal Model]]'
+- '[[do-calculus]]'
 theory_applied_by:
-  - "[[Difference-in-Differences]]"
-  - "[[Fairness in Machine Learning]]"
-  - "[[Inverse probability weigthing]]"
-  - "[[Mediation Analysis]]"
-  - "[[Policy Evaluation]]"
-  - "[[Randomized Controlled Trial]]"
-  - "[[Regression Discontinuity]]"
-  - "[[Root Cause Analysis]]"
-  - "[[TabPFN]]"
+- '[[Difference-in-Differences]]'
+- '[[Fairness in Machine Learning]]'
+- '[[Inverse probability weigthing]]'
+- '[[Mediation Analysis]]'
+- '[[Policy Evaluation]]'
+- '[[Randomized Controlled Trial]]'
+- '[[Regression Discontinuity]]'
+- '[[Root Cause Analysis]]'
+- '[[TabPFN]]'
 inferred_by: reasoner
-created: "[[Pearl Diagrams]]"
+created: '[[Pearl Diagrams]]'
 ---
 Judea Pearl (Wikidata: Q92743) is a computer scientist and philosopher who revolutionized causal inference by introducing graphical models and formal calculi for causal reasoning. He received the Turing Award in 2011 "for fundamental contributions to artificial intelligence through the development of a calculus for probabilistic and causal reasoning."
 

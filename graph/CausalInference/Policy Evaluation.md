@@ -1,13 +1,13 @@
 ---
-parent: "[[Causal inference]]"
+parent: '[[Causal inference]]'
 tags:
-  - application
-  - policy
-  - economics
+- application
+- policy
+- economics
 type: application
-uses: "[[Structural Causal Model]]"
+uses: '[[Structural Causal Model]]'
 indirectly_uses:
-  - "[[Graphical models]]"
+- '[[Graphical models]]'
 inferred_by: reasoner
 ---
 Policy evaluation assesses the causal impact of interventions, programs, or policies. Rigorous evaluation distinguishes true causal effects from spurious associations, informing decisions about whether to continue, expand, or modify policies.

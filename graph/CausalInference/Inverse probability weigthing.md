@@ -1,11 +1,11 @@
 ---
-parent: "[[Causal inference]]"
-created_by: "[[Donald Rubin]]"
-part_of: "[[Propensity Score Matching]]"
-uses: "[[Structural Causal Model]]"
-used_for: "[[Policy Evaluation]]"
+parent: '[[Causal inference]]'
+created_by: '[[Donald Rubin]]'
+part_of: '[[Propensity Score Matching]]'
+uses: '[[Structural Causal Model]]'
+used_for: '[[Policy Evaluation]]'
 indirectly_uses:
-  - "[[Graphical models]]"
+- '[[Graphical models]]'
 inferred_by: reasoner
 ---
 # Inverse Probability Weighting
