@@ -1,6 +1,8 @@
 ---
-uses:
-used_by: "[[Prediction]]"
+uses: null
+used_by:
+- '[[Prediction]]'
 inferred_by: reasoner
-created_by: "[[Dartmouth workshop]]"
+created_by:
+- '[[Dartmouth workshop]]'
 ---
