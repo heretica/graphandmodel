@@ -20,28 +20,29 @@ src/
 
 ## ✨ Features
 
-**Automatic Fact Extraction**: Parses YAML frontmatter from Obsidian markdown files
+**Automatic fact extraction**: Parses YAML frontmatter from Obsidian markdown files
 
-**Logical Reasoning**: Applies 12 inference rules (6 domain-specific + 6 OWL-inspired) to discover new relationships:
+**Logical reasoning**: Applies 12 inference rules (6 domain-specific + 6 OWL-inspired) to discover new relationships:
 
-  **Domain-Specific Rules:**
-1. **Transitive Parent** (ANCESTOR_OF): If A parent of B, and B parent of C → A ancestor of C
-2. **Transitive Part-Of** (TRANSITIVELY_PART_OF): If A part of B, and B part of C → A transitively part of C
-  3. **Contribution** (CONTRIBUTED_TO): If Creator created X, and X part of Y → Creator contributed to Y
-  4. **Indirect Usage** (INDIRECTLY_USES): If A uses X, and X uses Y → A indirectly uses Y
-  5. **Domain Encompasses** (DOMAIN_ENCOMPASSES): If A parent of X, and X part of Y → A's domain encompasses Y
-  6. **Theory Application** (THEORY_APPLIED_BY): If Creator created Theory, and Method uses Theory → Creator's theory applied by Method
+**Domain-specific rules:**
+1. **Transitive parent** (ANCESTOR_OF): If A parent of B, and B parent of C → A ancestor of C
+2. **Transitive part-of** (TRANSITIVELY_PART_OF): If A part of B, and B part of C → A transitively part of C
+3. **Contribution** (CONTRIBUTED_TO): If Creator created X, and X part of Y → Creator contributed to Y
+4. **Indirect usage** (INDIRECTLY_USES): If A uses X, and X uses Y → A indirectly uses Y
+5. **Domain encompasses** (DOMAIN_ENCOMPASSES): If A parent of X, and X part of Y → A's domain encompasses Y
+6. **Theory application** (THEORY_APPLIED_BY): If Creator created Theory, and Method uses Theory → Creator's theory applied by Method
 
-  **OWL-Inspired Rules:**
-  7. **Symmetric Collaboration** (COAUTHOR_OF, COLLABORATES_WITH): If A coauthor of B → B coauthor of A (symmetric property)
-  8. **Inverse Properties** (CREATED_BY, USED_BY, HAS_PART): Automatically generate inverse relationships (owl:inverseOf)
-  9. **Methodology Inheritance** (INHERITS_METHODOLOGY_FROM): If Method is_a ParentMethod, ParentMethod uses Technique → Method inherits from Technique
-  10. **Field Contribution** (CONTRIBUTED_TO_FIELD): If Person created Method, Method works_in Field → Person contributed to Field
-  11. **Cross-Domain Bridges** (BRIDGES_DOMAIN): Detects methods that integrate theories from multiple fields
-  12. **Prerequisite Chain** (REQUIRES_UNDERSTANDING): Creates transitive learning dependencies
+**OWL-inspired rules:**
+7. **Symmetric Collaboration** (COAUTHOR_OF, COLLABORATES_WITH): If A coauthor of B → B coauthor of A (symmetric property)
+8. **Inverse Properties** (CREATED_BY, USED_BY, HAS_PART): Automatically generate inverse relationships (owl:inverseOf)
+9. **Methodology Inheritance** (INHERITS_METHODOLOGY_FROM): If Method is_a ParentMethod, ParentMethod uses Technique → Method inherits from Technique
+10. **Field Contribution** (CONTRIBUTED_TO_FIELD): If Person created Method, Method works_in Field → Person contributed to Field
+11. **Cross-Domain Bridges** (BRIDGES_DOMAIN): Detects methods that integrate theories from multiple fields
+12. **Prerequisite Chain** (REQUIRES_UNDERSTANDING): Creates transitive learning dependencies
 
-- **Automated Discovery Persistence**: Writes inferred facts back to your Obsidian vault
-- **CI/CD Integration**: GitHub Actions automatically runs reasoning when you add new notes
+**Automated discovery persistence**: writes inferred facts back to your Obsidian vault
+
+**CI/CD Integration**: GitHub Actions automatically runs reasoning when you add new notes
 
 ## 🚀 Quick Start
 
@@ -55,78 +56,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-### Usage
-
-#### Analyze your knowledge graph
-
-```bash
-python src/cli/analyze.py
-```
-
-This will:
-1. Extract all facts from your Obsidian vault (`graph/` directory)
-2. Apply reasoning rules to infer new relationships
-3. Display statistics and insights about your knowledge graph
-
-#### Persist discoveries back to your vault
-
-```bash
-python src/cli/persist.py
-```
-
-This will:
-1. Run the reasoner
-2. Write inferred facts back to your markdown files as YAML frontmatter
-3. Add `inferred_by: reasoner` metadata to track automated discoveries
-
-### Example
-
-**Input** - Your Obsidian vault contains:
-
-`Difference-in-Differences.md`:
-```yaml
----
-parent: '[[Causal Inference]]'
-created_by: '[[David Card]]'
-part_of: '[[Policy Evaluation]]'
-uses: '[[Structural Causal Model]]'
----
-```
-
-`Causal Inference.md`:
-```yaml
----
-parent: '[[Causality]]'
----
-```
-
-`Structural Causal Model.md`:
-```yaml
----
-created_by: '[[Judea Pearl]]'
----
-```
-
-**Output** - The reasoner infers and adds to files:
-
-To `Causality.md`:
-```yaml
-ancestor_of:
-  - '[[Difference-in-Differences]]'
-inferred_by: reasoner
-```
-
-To `David Card.md`:
-```yaml
-contributed_to:
-  - '[[Policy Evaluation]]'
-inferred_by: reasoner
-```
-
-To `Judea Pearl.md`:
-```yaml
-theory_applied_by:
-  - '[[Difference-in-Differences]]'
+Difference-in-Differences]]'
 inferred_by: reasoner
 ```
 
