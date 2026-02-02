@@ -10,6 +10,7 @@ ancestor_of:
 - '[[Backdoor Criterion]]'
 - '[[Collider]]'
 - '[[Confounder]]'
+- '[[Fork]]'
 - '[[d-separation]]'
 domain_encompasses:
 - '[[Structural Causal Model]]'
