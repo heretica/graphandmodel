@@ -56,78 +56,6 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-Difference-in-Differences]]'
-inferred_by: reasoner
-```
-
-## 🔄 Automated Workflow
-
-The GitHub Actions workflow (`.github/workflows/reasoning-workflow.yml`) automatically:
-
-1. **Triggers** when you push new `.md` files to the `graph/` directory
-2. **Analyzes** your knowledge graph
-3. **Persists** new discoveries
-4. **Commits** the enriched files back to your repository
-
-This means your Obsidian vault on GitHub stays synchronized with inferred knowledge!
-
-## 📊 Supported Relationships
-
-### Input Relations (from YAML frontmatter)
-
-Users can add these relationships manually in markdown file frontmatter:
-
-- `parent`: Creates PARENT_OF relationship
-- `type_model`: Creates IS_A relationship
-- `part_of`: Creates PART_OF relationship
-- `uses`: Creates USES relationship
-- `created_by`: Creates CREATED relationship
-- `field` / `works_in`: Creates WORKS_IN relationship
-- `used_for`: Creates USED_FOR relationship
-- `coauthor_of`: Creates COAUTHOR_OF relationship (symmetric)
-- `collaborates_with`: Creates COLLABORATES_WITH relationship (symmetric)
-
-### Inferred Relations (Written to YAML frontmatter)
-
-The reasoner infers these relationships and writes them back to markdown files:
-
-#### Domain-Specific Inferred Relations
-
-| Relation | YAML Key | Description | Example |
-|----------|----------|-------------|---------|
-| `ANCESTOR_OF` | `ancestor_of` | Grandparent in hierarchy | Causality → Difference-in-Differences |
-| `TRANSITIVELY_PART_OF` | `transitively_part_of` | Transitive composition | Component → System → Platform |
-| `CONTRIBUTED_TO` | `contributed_to` | Creator's contribution to field | David Card → Policy Evaluation |
-| `INDIRECTLY_USES` | `indirectly_uses` | Transitive dependency | App → Framework → Language |
-| `DOMAIN_ENCOMPASSES` | `domain_encompasses` | Field covers application | Causal Inference → Policy Evaluation |
-| `THEORY_APPLIED_BY` | `theory_applied_by` | Theory used by method | Judea Pearl → Difference-in-Differences |
-
-#### OWL-Inspired Inferred Relations
-
-| Relation | YAML Key | OWL Pattern | Description | Example |
-|----------|----------|-------------|-------------|---------|
-| `COAUTHOR_OF` | `coauthor_of` | owl:SymmetricProperty | Bidirectional collaboration | If A coauthor of B → B coauthor of A |
-| `COLLABORATES_WITH` | `collaborates_with` | owl:SymmetricProperty | Bidirectional collaboration | If A collaborates with B → B collaborates with A |
-| `CREATED_BY` | `created_by` | owl:inverseOf | Inverse of created | Theory → Creator |
-| `USED_BY` | `used_by` | owl:inverseOf | Inverse of uses | Framework → Applications |
-| `HAS_PART` | `has_part` | owl:inverseOf | Inverse of part_of | System → Components |
-| `INHERITS_METHODOLOGY_FROM` | `inherits_methodology_from` | Property chain | Method inherits parent's technique | DiD inherits from Quasi-Experimental |
-| `CONTRIBUTED_TO_FIELD` | `contributed_to_field` | Compositional | Field-level contribution | Pearl → Causal Inference |
-| `BRIDGES_DOMAIN` | `bridges_domain` | Multi-field detection | Cross-disciplinary method | Econometrics bridges Economics & Statistics |
-| `REQUIRES_UNDERSTANDING` | `requires_understanding` | Transitive dependency | Learning prerequisite chain | Advanced ML → Statistics → Probability |
-
-**Note**: Inferred facts are added to the **subject** entity's file with `inferred_by: reasoner` metadata.
-
-## 🧪 Testing
-
-```bash
-# Run the analyzer on the example knowledge base
-python src/cli/analyze.py
-
-# Test persistence (dry run recommended first)
-python src/cli/persist.py
-```
-
 ## 📁 Project Structure
 
 ```
@@ -146,17 +74,6 @@ python src/cli/persist.py
 └── README.md                         # This file
 ```
 
-## 🎯 Computational Ontology
-
-This project follows a computational ontology design documented in Grafo:
-- **Document**: `graphandmodel_computational_ontology`
-- **IRI**: `http://www.graphandmodel.io/ontology`
-
-Key architectural principles:
-- No orphan entity nodes
-- All relationships have attributes
-- All entities have properties
-- Modular separation: extraction → reasoning → persistence
 
 ## 🛠️ Development
 
@@ -186,15 +103,8 @@ self.rules = [
 1. Update `RELATION_MAPPINGS` in `src/obsidian_reasoner/extractor.py`
 2. Update `RELATION_TO_KEY` in `src/obsidian_reasoner/persister.py`
 
-## 📝 License
-
-MIT License - See LICENSE file for details
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 🔗 Related Projects
-
-- [Obsidian](https://obsidian.md/) - The knowledge base application
-- [Grafo](https://gra.fo/) - Computational ontology platform
