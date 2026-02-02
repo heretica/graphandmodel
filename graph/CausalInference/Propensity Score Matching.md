@@ -1,14 +1,15 @@
 ---
-parent: "[[Causal inference]]"
+parent: '[[Causal inference]]'
 tags:
-  - method
-  - matching
+- method
+- matching
 type: technique
 wikidata: Q7251139
-created_by: "[[Donald Rubin]]"
+created_by:
+- '[[Donald Rubin]]'
 inferred_by: reasoner
 has_part:
-  - "[[Inverse probability weigthing]]"
+- '[[Inverse probability weigthing]]'
 ---
 Propensity score matching balances treatment and control groups on observed covariates by matching units with similar probabilities of treatment. Introduced by Paul Rosenbaum and Donald Rubin in 1983, the method reduces bias from observed confounding in observational studies.
 
